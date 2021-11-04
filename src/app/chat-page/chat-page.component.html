@@ -1,1 +1,6 @@
 <p>chat-page works!</p>
+
+<input type="text" (keyup.enter)="sendMsg($event)" [(ngModel)]="textBox" name="textBox">
+
+<div id="messages"></div>
+
